@@ -61,24 +61,24 @@
                             <em>In Stock</em>
                         </div>
                         <div class="card-img-top">
-                            <img src="./src/img/img scss1.png" alt="">
+                            <img src="./src/img/img scss2.png" alt="">
 
                         </div>
                     </div>
                     <div class="card_hover">
                         <div class="card-body">
                             <div class="card-title">
-                                <div>Airpods Pro</div>
+                                <div>Apple Watch
+                                </div>
                                 <div class="card_heart"><i class="fa-solid fa-heart"></i></div>
                             </div>
-                            <p class="card-text">Wireless Noise Cancelling Earphones</p>
+                            <p class="card-text">You’ve never seen a watch like this</p>
                         </div>
                         <div class="card_content">
-                            AirPods Pro have been designed to deliver active Noise Cancellation for immersive sound.
-                            Transparancy mode so much can hear your surroundings.
+                            The most advanced Apple Watch yet, featuring the Always-On Retina display, the ECG app, international emergency calling, fall detection and a built‑in compass.
                         </div>
                         <div class="card_bottom">
-                            <div class="priceDevices">$ 400</div>
+                            <div class="priceDevices">$ 500</div>
                             <button>Add <i class="fa-solid fa-angle-right"></i></button>
                         </div>
                     </div>
@@ -90,24 +90,24 @@
                             <em>In Stock</em>
                         </div>
                         <div class="card-img-top">
-                            <img src="./src/img/img scss1.png" alt="">
+                            <img src="./src/img/img scss3.png" alt="">
 
                         </div>
                     </div>
                     <div class="card_hover">
                         <div class="card-body">
                             <div class="card-title">
-                                <div>Airpods Pro</div>
+                                <div>Macbook Pro
+                                </div>
                                 <div class="card_heart"><i class="fa-solid fa-heart"></i></div>
                             </div>
-                            <p class="card-text">Wireless Noise Cancelling Earphones</p>
+                            <p class="card-text">The best for the brightest</p>
                         </div>
                         <div class="card_content">
-                            AirPods Pro have been designed to deliver active Noise Cancellation for immersive sound.
-                            Transparancy mode so much can hear your surroundings.
+                            Designed for those who defy limits and change the world, the new MacBook Pro is by far the most powerful notebook we’ve ever made. it’s the ultimate pro notebook for the ultimate user.
                         </div>
                         <div class="card_bottom">
-                            <div class="priceDevices">$ 400</div>
+                            <div class="priceDevices">$ 2000</div>
                             <button>Add <i class="fa-solid fa-angle-right"></i></button>
                         </div>
                     </div>
@@ -119,24 +119,23 @@
                             <em>In Stock</em>
                         </div>
                         <div class="card-img-top">
-                            <img src="./src/img/img scss1.png" alt="">
+                            <img src="./src/img/img scss4.png" alt="">
 
                         </div>
                     </div>
                     <div class="card_hover">
                         <div class="card-body">
                             <div class="card-title">
-                                <div>Airpods Pro</div>
+                                <div>iPhone 11 pro</div>
                                 <div class="card_heart"><i class="fa-solid fa-heart"></i></div>
                             </div>
-                            <p class="card-text">Wireless Noise Cancelling Earphones</p>
+                            <p class="card-text">Pro cameras. Pro display. Pro performance</p>
                         </div>
                         <div class="card_content">
-                            AirPods Pro have been designed to deliver active Noise Cancellation for immersive sound.
-                            Transparancy mode so much can hear your surroundings.
+                            A mind‑blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the first iPhone powerful enough to be called Pro.
                         </div>
                         <div class="card_bottom">
-                            <div class="priceDevices">$ 400</div>
+                            <div class="priceDevices">$ 2000</div>
                             <button>Add <i class="fa-solid fa-angle-right"></i></button>
                         </div>
                     </div>
@@ -148,31 +147,73 @@
                             <em>In Stock</em>
                         </div>
                         <div class="card-img-top">
-                            <img src="./src/img/img scss1.png" alt="">
+                            <img src="./src/img/img scss5.png" alt="">
 
                         </div>
                     </div>
                     <div class="card_hover">
                         <div class="card-body">
                             <div class="card-title">
-                                <div>Airpods Pro</div>
+                                <div>iPad Pro</div>
                                 <div class="card_heart"><i class="fa-solid fa-heart"></i></div>
                             </div>
-                            <p class="card-text">Wireless Noise Cancelling Earphones</p>
+                            <p class="card-text">Your next computer is not a computer</p>
                         </div>
                         <div class="card_content">
-                            AirPods Pro have been designed to deliver active Noise Cancellation for immersive sound.
-                            Transparancy mode so much can hear your surroundings.
+                            It’s a magical piece of glass. It’s so fast most PC laptops can’t catch up. And you can use it with touch, pencil, keyboard and now trackpad. It’s the new iPad Pro.
                         </div>
                         <div class="card_bottom">
-                            <div class="priceDevices">$ 400</div>
+                            <div class="priceDevices">$ 1000</div>
                             <button>Add <i class="fa-solid fa-angle-right"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="nav">
+                <button class="btnCart" onclick="sideNav(1)" >
+                    <i class="fa-solid fa-cart-shopping"></i>                   
+                </button>
+                <span class="total-qty">0</span>
+            </div>
+            <div onclick="sideNav(0)" class="cover" style="display: none;"></div>
+            <div class="cover purchase-cover"></div>
+            <div class="cart">
+                <div class="side-nav">
+                  <button onclick="sideNav(0)"><i class="fas fa-times"></i></button>
+                  <h2>Cart</h2>
+                  <div class="cart-items">
+                    <span class="empty-cart">Looks Like You Haven't Added Any Product In The Cart</span>
+                  </div>
+                  <div class="final">
+                    <strong>Total: $ <span class="total">0</span></strong>
+                    <div class="action">
+                      <button onclick="buy(1)" class="btn buy">Purchase <i class="fas fa-credit-card" style="color:#6665dd;"></i></button>
+                      <button onclick="clearCart()" class="btn clear">Clear Cart <i class="fas fa-trash" style="color:#bb342f;"></i></button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="stock-limit">
+                <em>You Can Only Buy 10 Items For Each Product</em>
+                <button class="btn-ok" onclick="limitPurchase(this)">Okay</button>
+             </div>
+
+             <div class="order-now"></div>
 
     </section>
+
+   
+   
+
+
+
+
+<script src="./src/layout/layout.js"></script>
+
+
+
+
 </body>
 
 </html>
+
